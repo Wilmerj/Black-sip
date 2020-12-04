@@ -1,0 +1,23 @@
+@import './variables.module.scss';
+
+.btnPrimaryColor {
+    background-color: $primary-color;
+    color: $white;
+    padding: 5px 20px;
+}
+
+.icons {
+    background-color: $primary-color;
+    color: $white;
+    padding: 5px 15px;
+    height: 100%;
+}
+
+.errorMessage {
+    display: block;
+    color: $danger;
+}
+
+.inputError {
+    border-color: $danger !important;
+}

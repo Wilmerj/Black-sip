@@ -1,0 +1,71 @@
+@import '../../styles/variables.module.scss';
+@import '../../styles/app.module.scss';
+
+.generalContainerShopCar {
+    width: 35%;
+}
+
+.generalContainerShopCar .headerShopCar {
+    background-color: $ligth-gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generalContainerShopCar .bodyShopCar {
+    border:  1px solid #eee;
+}
+
+.generalContainerShopCar .bodyShopCar .fieldProduct {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.generalContainerShopCar .bodyShopCar .fieldProduct img {
+    width: 20%;
+    max-width: 20%;
+}
+
+.generalContainerShopCar .bodyShopCar .fieldProduct .description {
+    width: 50%;
+    color: $ligth-2-gray;
+}
+
+.generalContainerShopCar .bodyShopCar .fieldProduct .value {
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.generalContainerShopCar .footerShopCar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: $ligth-gray;
+    padding: 15px;
+    font-weight: 600;
+}
+
+
+.generalContainerShopCar .footerShopCar .totals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.generalContainerShopCar #btnTotal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .generalContainerShopCar {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
